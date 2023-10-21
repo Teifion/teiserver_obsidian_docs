@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "bf0501e128ba31a2",
+        "id": "d00032fb3dc0412c",
         "type": "tabs",
         "children": [
           {
-            "id": "ce0b8bd39668650e",
+            "id": "52e9c289d22191b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
+                "file": "hailstorm/readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "809727f2eb718881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "contexts/readme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "readme.md",
+                "file": "contexts/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "readme.md",
+                "file": "contexts/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md"
+                "file": "contexts/readme.md"
               }
             }
           },
@@ -157,43 +170,47 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "ce0b8bd39668650e",
+  "active": "809727f2eb718881",
   "lastOpenFiles": [
-    "tutorials/readme.md",
+    "contexts/telemetry",
+    "contexts/Untitled Folder",
+    "contexts/protocols",
+    "contexts/moderation",
+    "contexts/microblog",
+    "contexts/logging",
+    "contexts/lobby",
+    "contexts/game",
+    "contexts/coordinator",
+    "contexts/config",
+    "contexts/communication",
+    "hailstorm/readme.md",
+    "contexts/readme.md",
+    "designs/matchmaking/Matchmaking design doc.md",
+    "designs/matchmaking/flow technical.canvas",
+    "designs/matchmaking/flow non-technical.canvas",
+    "tutorials/Testing.md",
+    "pubsubs/readme.md",
+    "readme.md",
+    "designs/Telemetry.md",
+    "New contributors.md",
     "snippets/readme.md",
+    "Reference list.md",
+    "tutorials/readme.md",
     "snippets/Hot reloading.md",
     "resources/Phoenix and LiveView.md",
     "resources/Elixir.md",
     "resources/readme.md",
-    "pubsubs/readme.md",
     "designs/readme.md",
-    "designs/matchmaking/Matchmaking design doc.md",
-    "readme.md",
-    "designs/Telemetry.md",
     "tutorials/Discord bot.md",
     "().md",
     "designs/Untitled.md",
     "pubsubs/Application.md",
-    "designs/matchmaking/flow technical.canvas",
-    "resources",
-    "designs/matchmaking/flow non-technical.canvas",
-    "tutorials/Testing.md",
-    "designs/matchmaking",
     "snippets/Reset database.md",
     "tutorials/Production setup (Linux).md",
     "pubsubs/Communication.md",
     "pubsubs/Internal.md",
     "pubsubs/Liveviews.md",
-    "pubsubs/Matchmaking.md",
-    "pubsubs/Microblog.md",
-    "pubsubs/Moderation.md",
-    "pubsubs/Parties.md",
-    "pubsubs/Room chat.md",
     "designs/Untitled Diagram.svg",
-    "Matchmaking process.canvas",
-    "snippets",
-    "tutorials",
-    "designs",
-    "pubsubs"
+    "Matchmaking process.canvas"
   ]
 }
