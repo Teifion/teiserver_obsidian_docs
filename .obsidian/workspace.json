@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "354f0eea1cb79491",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ab28154f43941a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d5d725ea192aa16",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea22cd614e847bce",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9c341cb2b846c9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74de7461af37601a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3fb45a19b6d546fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a2a49a5550c372b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "c0e7ea3dbb373496",
+    "type": "split",
+    "children": [
+      {
+        "id": "24153628013f2fe2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "042ec0a059acba9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "864ba8010560c9bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20724bbb18b5893f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5c04a13ceb157e0b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "vscode-editor:Create Code File": false
+    }
+  },
+  "active": "2d5d725ea192aa16",
+  "lastOpenFiles": [
+    "2023-10-21.md",
+    "designs/Matchmaking flow.canvas",
+    "index.md.md",
+    "designs/Untitled Diagram.svg",
+    "designs/Telemetry.md",
+    "Matchmaking process.canvas",
+    "designs/Matchmaking design doc.md",
+    "pubsubs/Parties.md",
+    "tutorials/Testing.md",
+    "tutorials/Production setup (Linux).md",
+    "tutorials/Local setup (Linux).md",
+    "snippets/Reset database.md",
+    "tutorials/Discord bot.md",
+    "snippets/Hot reloading.md",
+    "snippets",
+    "caches.md",
+    "tutorials",
+    "pubsubs/Users.md",
+    "designs",
+    "pubsubs/Telemetry.md",
+    "pubsubs/Room chat.md",
+    "pubsubs/Moderation.md",
+    "pubsubs/Microblog.md",
+    "pubsubs/Matchmaking.md",
+    "pubsubs/Lobby.md",
+    "pubsubs/Liveviews.md",
+    "pubsubs/Internal.md",
+    "pubsubs/Communication.md",
+    "pubsubs/Application.md",
+    "pubsubs/readme.md",
+    "pubsubs/Applications pubsubs.md",
+    "pubsubs"
+  ]
+}

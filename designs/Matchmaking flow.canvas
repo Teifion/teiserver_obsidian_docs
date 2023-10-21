@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"2c70109fb356d755","type":"text","text":"QueueWaitServer ","x":-20,"y":120,"width":250,"height":60},
+		{"id":"8011fd709fbc0fa7","type":"text","text":"#### Definitions\n- **Group** - A user or party of user(s) looking to play together on the same team\n- **QueueWaitServer** - A server process responsible for matching groups together for games; one process runs per queue\n- **QueueRoomServer** - A server process responsible for finding a room for a given set of groups to play in","x":-661,"y":-720,"width":1261,"height":241,"color":"5"},
+		{"id":"513d6092c7272fed","type":"text","text":"Group lists queues","x":-620,"y":-440,"width":250,"height":60,"color":"6"},
+		{"id":"0c43a3ed15d94e2e","type":"text","text":"Group joins one or more queues","x":-309,"y":-440,"width":250,"height":60,"color":"6"},
+		{"id":"2a4b7734ec3c3fa3","type":"text","text":"QueueWaitServer\n- Validates group can queue\n- Places group in a bucket","x":-328,"y":-320,"width":289,"height":114,"color":"3"}
+	],
+	"edges":[
+		{"id":"5fe1b78193cc9b8e","fromNode":"513d6092c7272fed","fromSide":"right","toNode":"0c43a3ed15d94e2e","toSide":"left"},
+		{"id":"38d5c7edb8b02b2a","fromNode":"0c43a3ed15d94e2e","fromSide":"bottom","toNode":"2a4b7734ec3c3fa3","toSide":"top"}
+	]
+}
