@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"946fc34a4087a479","type":"text","text":"**Group** lists queues","x":-632,"y":-333,"width":250,"height":60,"color":"4"},
+		{"id":"123ccc7bc3bd0b0a","type":"text","text":"**Group** joins one or more queues","x":-321,"y":-333,"width":320,"height":60,"color":"4"},
+		{"id":"2300d492bea886f4","type":"text","text":"**QueueWaitServer** `:add_group`\n- Validates group can queue\n- Places group in a bucket","x":47,"y":-360,"width":285,"height":114,"color":"5"},
+		{"id":"456780c0ed313f55","type":"text","text":"**QueueWaitServer** `periodic :tick`\n- Look at all groups currently waiting\n- If the ranges of multiple groups overlap enough to form a game then match them up\n- Pause their search (to allow resumption)","x":-632,"y":-140,"width":433,"height":176,"color":"5"},
+		{"id":"a03ca983dc87e50d","type":"text","text":"**QueueRoomServer** `Finding empty lobby`\n- Repeatedly\n\t- Find lobbies matching criteria (empty, name starts with `\"EU \"` or `\"BH \"` etc)\n\t- Once found proceed to `Setup lobby`","x":449,"y":96,"width":529,"height":180,"color":"6"},
+		{"id":"a539ce648682adc3","type":"text","text":"**QueueRoomServer** `init`\n- Set stage to `accepting`\n- Wait for each user to accept/decline the match","x":-632,"y":114,"width":433,"height":144,"color":"6"},
+		{"id":"d0d89949b2ce0ed8","type":"text","text":"**QueueRoomServer** `accepting`\n- If `decline` then cancel the room\n\t- Accepting groups go back into queues\n\t- Declined group(s) are not re-added to queues\n- If `accept` add player to list of accepted\n\t- Once all `accepted` proceed to `Finding empty lobby`","x":-140,"y":80,"width":529,"height":212,"color":"6"},
+		{"id":"0b9e2a18979f077f","type":"text","text":"**QueueRoomServer** `Setup lobby`\n- Ensure all relevant users are no longer in game (`!gkick`)\n- Silence lobby (to prevent commands)\n- Lock lobby\n- Rename lobby\n- `:timer.sleep`\n- Cancel the paused searches\n- Force each user to be added to the lobby\n- Apply basic settings (map, autobalance etc)\n- Force team composition\n- Apply modoptions\n- Attempt to start game","x":1040,"y":-5,"width":529,"height":382,"color":"6"},
+		{"id":"e585858f69fb3b96","type":"text","text":"**QueueWaitServer** `periodic :increase_range`\n- For all groups, if their range can be extended then extend it by the increment","x":-140,"y":-140,"width":433,"height":144,"color":"5"},
+		{"id":"3eccf0b507a2c454","type":"text","text":"Group is now in game","x":-632,"y":520,"width":289,"height":60,"color":"4"},
+		{"id":"c4a7ff1a5e14ba0d","type":"text","text":"#### Definitions\n- **Group** - A user or party of user(s) looking to play together on the same team\n- **QueueWaitServer** - A server process responsible for matching groups together for games; one process runs per queue\n- **QueueRoomServer** - A server process responsible for finding a room for a given set of groups to play in","x":-632,"y":-560,"width":1261,"height":160}
+	],
+	"edges":[
+		{"id":"425254f9efd90636","fromNode":"946fc34a4087a479","fromSide":"right","toNode":"123ccc7bc3bd0b0a","toSide":"left"},
+		{"id":"4b9b86bd03a69ae6","fromNode":"123ccc7bc3bd0b0a","fromSide":"right","toNode":"2300d492bea886f4","toSide":"left"},
+		{"id":"ed2e15cf58ce9248","fromNode":"456780c0ed313f55","fromSide":"bottom","toNode":"a539ce648682adc3","toSide":"top"},
+		{"id":"ee9b1ec6608ccb1f","fromNode":"2300d492bea886f4","fromSide":"bottom","toNode":"456780c0ed313f55","toSide":"top"},
+		{"id":"077c4a63fd88e1b2","fromNode":"a539ce648682adc3","fromSide":"right","toNode":"d0d89949b2ce0ed8","toSide":"left"},
+		{"id":"f3976188b84730ea","fromNode":"d0d89949b2ce0ed8","fromSide":"right","toNode":"a03ca983dc87e50d","toSide":"left"},
+		{"id":"9d890f9460164a97","fromNode":"a03ca983dc87e50d","fromSide":"right","toNode":"0b9e2a18979f077f","toSide":"left"},
+		{"id":"4640959bc42a0a01","fromNode":"0b9e2a18979f077f","fromSide":"bottom","toNode":"3eccf0b507a2c454","toSide":"top"}
+	]
+}

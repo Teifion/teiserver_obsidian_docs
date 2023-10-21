@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6ab28154f43941a8",
+        "id": "bf0501e128ba31a2",
         "type": "tabs",
         "children": [
           {
-            "id": "2d5d725ea192aa16",
+            "id": "ce0b8bd39668650e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "readme.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,10 +125,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "readme.md"
+              }
+            }
+          },
+          {
+            "id": "7e478aa5d15a0839",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -140,39 +157,43 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "2d5d725ea192aa16",
+  "active": "ce0b8bd39668650e",
   "lastOpenFiles": [
-    "2023-10-21.md",
-    "designs/Matchmaking flow.canvas",
-    "index.md.md",
-    "designs/Untitled Diagram.svg",
-    "designs/Telemetry.md",
-    "Matchmaking process.canvas",
-    "designs/Matchmaking design doc.md",
-    "pubsubs/Parties.md",
-    "tutorials/Testing.md",
-    "tutorials/Production setup (Linux).md",
-    "tutorials/Local setup (Linux).md",
-    "snippets/Reset database.md",
-    "tutorials/Discord bot.md",
+    "tutorials/readme.md",
+    "snippets/readme.md",
     "snippets/Hot reloading.md",
-    "snippets",
-    "caches.md",
-    "tutorials",
-    "pubsubs/Users.md",
-    "designs",
-    "pubsubs/Telemetry.md",
-    "pubsubs/Room chat.md",
-    "pubsubs/Moderation.md",
-    "pubsubs/Microblog.md",
-    "pubsubs/Matchmaking.md",
-    "pubsubs/Lobby.md",
-    "pubsubs/Liveviews.md",
-    "pubsubs/Internal.md",
-    "pubsubs/Communication.md",
-    "pubsubs/Application.md",
+    "resources/Phoenix and LiveView.md",
+    "resources/Elixir.md",
+    "resources/readme.md",
     "pubsubs/readme.md",
-    "pubsubs/Applications pubsubs.md",
+    "designs/readme.md",
+    "designs/matchmaking/Matchmaking design doc.md",
+    "readme.md",
+    "designs/Telemetry.md",
+    "tutorials/Discord bot.md",
+    "().md",
+    "designs/Untitled.md",
+    "pubsubs/Application.md",
+    "designs/matchmaking/flow technical.canvas",
+    "resources",
+    "designs/matchmaking/flow non-technical.canvas",
+    "tutorials/Testing.md",
+    "designs/matchmaking",
+    "snippets/Reset database.md",
+    "tutorials/Production setup (Linux).md",
+    "pubsubs/Communication.md",
+    "pubsubs/Internal.md",
+    "pubsubs/Liveviews.md",
+    "pubsubs/Matchmaking.md",
+    "pubsubs/Microblog.md",
+    "pubsubs/Moderation.md",
+    "pubsubs/Parties.md",
+    "pubsubs/Room chat.md",
+    "designs/Untitled Diagram.svg",
+    "Matchmaking process.canvas",
+    "snippets",
+    "tutorials",
+    "designs",
     "pubsubs"
   ]
 }

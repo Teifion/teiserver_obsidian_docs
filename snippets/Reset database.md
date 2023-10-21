@@ -10,12 +10,12 @@ It happens, you import the same data twice or in some way make a mistake. There 
 Ideally you're using the provided backup script to create backups of your database on a regular basis. If you're not then you need to start.
 
 Step 1: upload the database backup
-```
+```sh
 scp -i ~/.ssh/id_rsa backup.tar.gz deploy@yourdomain.com:./restore.db
 ```
 
 Step 2: Remote into the server
-```
+```sh
 # Stop Teiserver running
 sudo systemctl stop central.service
 
@@ -38,7 +38,7 @@ sudo systemctl start central.service
 ```
 
 #### 2 - Restart from scratch
-```
+```sh
 # Stop the service
 sudo systemctl stop central.service
 

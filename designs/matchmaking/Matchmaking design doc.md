@@ -3,6 +3,8 @@ tags:
   - matchmaking
   - design_doc
 ---
+[[flow technical.canvas|Flow (technical)]]  - [[flow non-technical.canvas|Flow (non technical)]]
+
 # Goals
 In matchmaking you have an ever-changing pool of potential players who you are trying to match up to the best of your ability. In an ideal world when a person joins the queue they will have a comparable skill level opponent join at the same time. In reality the queue will be a constantly shifting slope of skill levels. As such we want to:
 - Minimise the amount of time a player will spend waiting for an opponent
