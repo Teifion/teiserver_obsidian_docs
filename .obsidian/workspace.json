@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d00032fb3dc0412c",
+        "id": "6ac0b164a55755f7",
         "type": "tabs",
         "children": [
           {
-            "id": "52e9c289d22191b7",
+            "id": "67ce0465d598662c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hailstorm/readme.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "809727f2eb718881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "contexts/readme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,6 +60,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "6fd3154293b9481c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -99,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "contexts/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "contexts/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "contexts/readme.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,11 +154,37 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "templater-obsidian:Templater": false,
+      "dbfolder:Create a new database table": false,
+      "homepage:Open homepage": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "809727f2eb718881",
+  "active": "67ce0465d598662c",
   "lastOpenFiles": [
+    "contexts/account/user.md",
+    "2023-10-23.md",
+    "pubsubs/Users.md",
+    "pubsubs/Telemetry.md",
+    "pubsubs/Room chat.md",
+    "pubsubs/readme.md",
+    "pubsubs/Parties.md",
+    "pubsubs/Moderation.md",
+    "pubsubs/Microblog.md",
+    "pubsubs/Matchmaking.md",
+    "pubsubs/Lobby.md",
+    "pubsubs/Internal.md",
+    "pubsubs/Communication.md",
+    "pubsubs/Application.md",
+    "New contributors.md",
+    "readme.md",
+    "Home.md",
+    "designs/matchmaking/flow technical.canvas",
+    "designs/matchmaking/flow non-technical.canvas",
+    "designs/matchmaking/Matchmaking design doc.md",
+    "hailstorm/readme.md",
+    "contexts/readme.md",
     "contexts/telemetry",
     "contexts/Untitled Folder",
     "contexts/protocols",
@@ -182,34 +195,12 @@
     "contexts/game",
     "contexts/coordinator",
     "contexts/config",
-    "contexts/communication",
-    "hailstorm/readme.md",
-    "contexts/readme.md",
-    "designs/matchmaking/Matchmaking design doc.md",
-    "designs/matchmaking/flow technical.canvas",
-    "designs/matchmaking/flow non-technical.canvas",
     "tutorials/Testing.md",
-    "pubsubs/readme.md",
-    "readme.md",
     "designs/Telemetry.md",
-    "New contributors.md",
     "snippets/readme.md",
     "Reference list.md",
     "tutorials/readme.md",
     "snippets/Hot reloading.md",
-    "resources/Phoenix and LiveView.md",
-    "resources/Elixir.md",
-    "resources/readme.md",
-    "designs/readme.md",
-    "tutorials/Discord bot.md",
-    "().md",
-    "designs/Untitled.md",
-    "pubsubs/Application.md",
-    "snippets/Reset database.md",
-    "tutorials/Production setup (Linux).md",
-    "pubsubs/Communication.md",
-    "pubsubs/Internal.md",
-    "pubsubs/Liveviews.md",
     "designs/Untitled Diagram.svg",
     "Matchmaking process.canvas"
   ]

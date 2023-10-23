@@ -2,5 +2,18 @@
   "dataview",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
-  "vscode-editor"
+  "vscode-editor",
+  "templater-obsidian",
+  "settings-search",
+  "obsidian-banners",
+  "cmdr",
+  "dbfolder",
+  "homepage",
+  "nldates-obsidian",
+  "note-refactor-obsidian",
+  "quickadd",
+  "recent-files-obsidian",
+  "obsidian-plugin-update-tracker",
+  "url-into-selection",
+  "obsidian-projects"
 ]

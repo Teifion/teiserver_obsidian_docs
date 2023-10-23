@@ -1,0 +1,119 @@
+{
+  "recentFiles": [
+    {
+      "basename": "user",
+      "path": "contexts/account/user.md"
+    },
+    {
+      "basename": "Users",
+      "path": "pubsubs/Users.md"
+    },
+    {
+      "basename": "Telemetry",
+      "path": "pubsubs/Telemetry.md"
+    },
+    {
+      "basename": "Room chat",
+      "path": "pubsubs/Room chat.md"
+    },
+    {
+      "basename": "readme",
+      "path": "pubsubs/readme.md"
+    },
+    {
+      "basename": "Parties",
+      "path": "pubsubs/Parties.md"
+    },
+    {
+      "basename": "Moderation",
+      "path": "pubsubs/Moderation.md"
+    },
+    {
+      "basename": "Microblog",
+      "path": "pubsubs/Microblog.md"
+    },
+    {
+      "basename": "Matchmaking",
+      "path": "pubsubs/Matchmaking.md"
+    },
+    {
+      "basename": "Lobby",
+      "path": "pubsubs/Lobby.md"
+    },
+    {
+      "basename": "Internal",
+      "path": "pubsubs/Internal.md"
+    },
+    {
+      "basename": "Communication",
+      "path": "pubsubs/Communication.md"
+    },
+    {
+      "basename": "Application",
+      "path": "pubsubs/Application.md"
+    },
+    {
+      "basename": "New contributors",
+      "path": "New contributors.md"
+    },
+    {
+      "basename": "readme",
+      "path": "readme.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "2023-10-23 MSFT",
+      "path": "bar/msft/2023-10-23 MSFT.md"
+    },
+    {
+      "basename": "Beherith",
+      "path": "people/Beherith.md"
+    },
+    {
+      "basename": "Chandler",
+      "path": "people/Chandler.md"
+    },
+    {
+      "basename": "PtaQ",
+      "path": "people/PtaQ.md"
+    },
+    {
+      "basename": "IceXuick",
+      "path": "people/IceXuick.md"
+    },
+    {
+      "basename": "Ralph",
+      "path": "people/Ralph.md"
+    },
+    {
+      "basename": "True",
+      "path": "people/True.md"
+    },
+    {
+      "basename": "Doug",
+      "path": "people/Doug.md"
+    },
+    {
+      "basename": "Peter Lee",
+      "path": "people/Peter Lee.md"
+    },
+    {
+      "basename": "Floris",
+      "path": "people/Floris.md"
+    },
+    {
+      "basename": "Will Mccahill",
+      "path": "people/Will Mccahill.md"
+    },
+    {
+      "basename": "meeting",
+      "path": "templates/meeting.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}
