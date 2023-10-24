@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ac0b164a55755f7",
+        "id": "6e5fafdad73dbc9c",
         "type": "tabs",
         "children": [
           {
-            "id": "67ce0465d598662c",
+            "id": "39506183cab1b389",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -28,6 +28,16 @@
         "id": "a9c341cb2b846c9b",
         "type": "tabs",
         "children": [
+          {
+            "id": "6a2a49a5550c372b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
           {
             "id": "74de7461af37601a",
             "type": "leaf",
@@ -52,16 +62,6 @@
             }
           },
           {
-            "id": "6a2a49a5550c372b",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "6fd3154293b9481c",
             "type": "leaf",
             "state": {
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,6 +136,16 @@
               "type": "git-history-view",
               "state": {}
             }
+          },
+          {
+            "id": "47d81e8e11555d20",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -151,7 +160,6 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "vscode-editor:Create Code File": false,
@@ -161,14 +169,29 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "67ce0465d598662c",
+  "active": "39506183cab1b389",
   "lastOpenFiles": [
+    "contexts/readme.md",
+    "designs/readme.md",
+    "hailstorm/readme.md",
+    "pubsubs/readme.md",
+    "resources/readme.md",
+    "snippets/readme.md",
+    "tutorials/readme.md",
+    "Home.md",
+    "readme.md",
+    "pubsubs/Users.md",
+    "New contributors.md",
+    "tutorials/Local setup (Linux).md",
+    "designs/Telemetry.md",
+    "designs/architecture/Tachyon server command.canvas",
+    "designs/architecture/Tachyon client command.canvas",
+    "designs/matchmaking/flow non-technical.canvas",
+    "designs/architecture",
     "contexts/account/user.md",
     "2023-10-23.md",
-    "pubsubs/Users.md",
     "pubsubs/Telemetry.md",
     "pubsubs/Room chat.md",
-    "pubsubs/readme.md",
     "pubsubs/Parties.md",
     "pubsubs/Moderation.md",
     "pubsubs/Microblog.md",
@@ -177,14 +200,8 @@
     "pubsubs/Internal.md",
     "pubsubs/Communication.md",
     "pubsubs/Application.md",
-    "New contributors.md",
-    "readme.md",
-    "Home.md",
     "designs/matchmaking/flow technical.canvas",
-    "designs/matchmaking/flow non-technical.canvas",
     "designs/matchmaking/Matchmaking design doc.md",
-    "hailstorm/readme.md",
-    "contexts/readme.md",
     "contexts/telemetry",
     "contexts/Untitled Folder",
     "contexts/protocols",
@@ -194,13 +211,6 @@
     "contexts/lobby",
     "contexts/game",
     "contexts/coordinator",
-    "contexts/config",
-    "tutorials/Testing.md",
-    "designs/Telemetry.md",
-    "snippets/readme.md",
-    "Reference list.md",
-    "tutorials/readme.md",
-    "snippets/Hot reloading.md",
     "designs/Untitled Diagram.svg",
     "Matchmaking process.canvas"
   ]

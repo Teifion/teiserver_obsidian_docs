@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "user",
-      "path": "contexts/account/user.md"
+      "basename": "readme",
+      "path": "contexts/readme.md"
+    },
+    {
+      "basename": "readme",
+      "path": "designs/readme.md"
+    },
+    {
+      "basename": "readme",
+      "path": "hailstorm/readme.md"
+    },
+    {
+      "basename": "readme",
+      "path": "pubsubs/readme.md"
+    },
+    {
+      "basename": "readme",
+      "path": "resources/readme.md"
+    },
+    {
+      "basename": "readme",
+      "path": "snippets/readme.md"
+    },
+    {
+      "basename": "readme",
+      "path": "tutorials/readme.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "readme",
+      "path": "readme.md"
     },
     {
       "basename": "Users",
       "path": "pubsubs/Users.md"
+    },
+    {
+      "basename": "New contributors",
+      "path": "New contributors.md"
+    },
+    {
+      "basename": "Local setup (Linux)",
+      "path": "tutorials/Local setup (Linux).md"
+    },
+    {
+      "basename": "Telemetry",
+      "path": "designs/Telemetry.md"
+    },
+    {
+      "basename": "Tachyon server command",
+      "path": "designs/architecture/Tachyon server command.canvas"
+    },
+    {
+      "basename": "Tachyon client command",
+      "path": "designs/architecture/Tachyon client command.canvas"
+    },
+    {
+      "basename": "flow non-technical",
+      "path": "designs/matchmaking/flow non-technical.canvas"
+    },
+    {
+      "basename": "user",
+      "path": "contexts/account/user.md"
     },
     {
       "basename": "Telemetry",
@@ -15,10 +75,6 @@
     {
       "basename": "Room chat",
       "path": "pubsubs/Room chat.md"
-    },
-    {
-      "basename": "readme",
-      "path": "pubsubs/readme.md"
     },
     {
       "basename": "Parties",
@@ -51,18 +107,6 @@
     {
       "basename": "Application",
       "path": "pubsubs/Application.md"
-    },
-    {
-      "basename": "New contributors",
-      "path": "New contributors.md"
-    },
-    {
-      "basename": "readme",
-      "path": "readme.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "2023-10-23 MSFT",

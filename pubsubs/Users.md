@@ -243,3 +243,38 @@ Information pertinent to a specific user
     friend_id: userid
   }
 ```
+
+#### account_user_relationships:#{userid}
+Updates to relationship status for the account in question.
+```elixir
+# Friend requests
+%{
+	event: :new_incoming_friend_request,
+	userid: userid,
+	from_id: userid
+}
+
+%{
+	event: :friend_request_accepted,
+	userid: userid,
+	accepter_id: userid
+}
+
+%{
+	event: :friend_request_declined,
+	userid: userid,
+	decliner_id: userid
+}
+
+%{
+	event: :friend_request_rescinded,
+	userid: userid,
+	rescinder_id: userid
+}
+
+%{
+	event: :new_follower,
+	userid: userid,
+	follower_id: userid
+}
+```

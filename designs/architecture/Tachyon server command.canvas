@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"da122e975567460f","type":"text","text":"TachyonSocket.handle_info","x":-380,"y":-360,"width":304,"height":50,"color":"5"},
+		{"id":"cf9973267145d8b8","type":"text","text":"Teiserver process sends TachyonSocket a message","x":-380,"y":-480,"width":304,"height":60,"color":"4"},
+		{"id":"34c2c29cfa5eddd5","type":"text","text":"Pattern match on channel to send to a MessageHandlers module","x":15,"y":-363,"width":304,"height":57,"color":"6"},
+		{"id":"cfb6fa5869fef293","type":"text","text":"Message handler handles the message and returns a either `{:ok, conn}` or `{:ok, response, conn}`","x":15,"y":-260,"width":304,"height":117,"color":"5"},
+		{"id":"7bb7021a6b54438c","type":"text","text":"TachyonSocket updates state and potentially sends JSON message to Client","x":-380,"y":-245,"width":304,"height":87,"color":"5"},
+		{"id":"e46a47580a007076","type":"text","text":"Client maybe receives JSON response","x":-380,"y":-80,"width":304,"height":58,"color":"4"}
+	],
+	"edges":[
+		{"id":"e0de8652cb276428","fromNode":"cf9973267145d8b8","fromSide":"bottom","toNode":"da122e975567460f","toSide":"top"},
+		{"id":"bc4564f31d8ac996","fromNode":"7bb7021a6b54438c","fromSide":"bottom","toNode":"e46a47580a007076","toSide":"top"},
+		{"id":"e7dcc465d6c6cd82","fromNode":"da122e975567460f","fromSide":"right","toNode":"34c2c29cfa5eddd5","toSide":"left"},
+		{"id":"6acdee2b5d9a1a32","fromNode":"34c2c29cfa5eddd5","fromSide":"bottom","toNode":"cfb6fa5869fef293","toSide":"top"},
+		{"id":"d96cced31f642911","fromNode":"cfb6fa5869fef293","fromSide":"left","toNode":"7bb7021a6b54438c","toSide":"right"}
+	]
+}

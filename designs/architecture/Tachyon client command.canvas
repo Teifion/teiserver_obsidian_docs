@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"b2e3d2da08c74037","type":"text","text":"TachyonSocket.handle_command","x":-315,"y":-780,"width":304,"height":50,"color":"5"},
+		{"id":"b9f8cce2471b15f3","type":"text","text":"CommandDispatch.dispatch","x":-315,"y":-680,"width":304,"height":50,"color":"5"},
+		{"id":"a779e6645550e51d","type":"text","text":"TachyonSocket.handle_in","x":-315,"y":-880,"width":304,"height":50,"color":"5"},
+		{"id":"8dbab10cf189d866","type":"text","text":"Client sends command as JSON over websocket","x":-315,"y":-1000,"width":304,"height":58,"color":"4"},
+		{"id":"dd2807c1e3ce2a7a","type":"text","text":"Lookup dispatch module, pass to that","x":80,"y":-680,"width":331,"height":50,"color":"6"},
+		{"id":"9f29c7e02c8e7bd6","type":"text","text":"Module returns a `{response, conn}` pair","x":80,"y":-580,"width":331,"height":80,"color":"6"},
+		{"id":"be31e68940700433","type":"text","text":"TachyonSocket updates state and potentially replies with a response","x":-315,"y":-583,"width":304,"height":87,"color":"5"},
+		{"id":"7f1cb112f0ec5bd3","type":"text","text":"Client maybe receives JSON response","x":-315,"y":-420,"width":304,"height":58,"color":"4"}
+	],
+	"edges":[
+		{"id":"d4d0a03f996f3dde","fromNode":"8dbab10cf189d866","fromSide":"bottom","toNode":"a779e6645550e51d","toSide":"top"},
+		{"id":"5dbf520fc3b67366","fromNode":"a779e6645550e51d","fromSide":"bottom","toNode":"b2e3d2da08c74037","toSide":"top"},
+		{"id":"2811d3348b053445","fromNode":"b2e3d2da08c74037","fromSide":"bottom","toNode":"b9f8cce2471b15f3","toSide":"top"},
+		{"id":"7af8a5d2b26906d9","fromNode":"b9f8cce2471b15f3","fromSide":"right","toNode":"dd2807c1e3ce2a7a","toSide":"left"},
+		{"id":"7e0e44aafddcb152","fromNode":"dd2807c1e3ce2a7a","fromSide":"bottom","toNode":"9f29c7e02c8e7bd6","toSide":"top"},
+		{"id":"69f8b58456a7d56f","fromNode":"9f29c7e02c8e7bd6","fromSide":"left","toNode":"be31e68940700433","toSide":"right"},
+		{"id":"4e6b631883711893","fromNode":"be31e68940700433","fromSide":"bottom","toNode":"7f1cb112f0ec5bd3","toSide":"top"}
+	]
+}
